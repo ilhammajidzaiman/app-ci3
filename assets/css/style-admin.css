@@ -1,0 +1,77 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+.h-100 {
+  height: 100% !important;
+}
+.jumbotronn {
+  height: 450px;
+  background-image: url("../../assets/images/desert.svg");
+  background-size: cover;
+  background-position-x: bottom;
+}
+/* .jumbotron {
+  height: 450px;
+  background-image: url("../../assets/images/desert.svg");
+  background-size: cover;
+  background-position-x: bottom;
+} */
+.info-panel {
+  margin: -100px 20px 20px 20px;
+  background: #ffffff;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.panel {
+  margin: 20px 20px -50px 20px;
+  background: #ffffff;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.min-t-100 {
+  margin-top: -100px;
+}
+.min-t-200 {
+  margin-top: -200px;
+}
+
+.mt-min {
+  margin-top: -6em;
+}
+.mb-min {
+  margin-bottom: -6em;
+}
+/* .bg-sm {
+  background: #ffffff;
+} */
+.menu a:hover {
+  background: #ffffff;
+  /* border-bottom: solid 2px black; */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* .bg-sm {
+    background: #ffffff;
+  } */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* .bg-sm {
+    background: #ffffff;
+  } */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .jumbotron {
+    margin-top: -65px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .jumbotron {
+    margin-top: -65px;
+  }
+}
